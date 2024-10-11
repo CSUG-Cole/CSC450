@@ -1,0 +1,35 @@
+--- CSC450_CT1_mod1-1.cpp	2024-10-11 11:28:29.224374997 -0700
++++ CSC450_CT1_mod1-1-FIXED.cpp	2024-10-11 15:16:08.309526516 -0700
+@@ -1,24 +1,25 @@
+ /* Simple Program with a few Errors for Correction
+-   Please be sure to correct all outlined errors.
++   Please be sure to correct all outlined errors. */
+ 
+ 
+-#include<iostream>
+-#include<conio.h>
++#include <iostream>
++// #include <conio.h>
+ 
+-Standard namespace declaration
++/* Standard namespace declaration */
+ using namespace std;
+ 
+-Main Function
++/* Main Function */
+ int main()
+ {
+ 
+      //Standard Ouput Statement
+-     cout<<"Welcome to this C++ Program"<<endl;
++     cout << "Welcome to this C++ Program" << endl;
+ 
+-     cout<<I have corrected all errors for this program. <<endl;
++     cout << "I have corrected all errors for this program." << endl;
+ 
+      // Wait For Output Screen
+ 
+      //Main Function return Statement
+ 
++     return 0;
+ }

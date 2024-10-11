@@ -1,0 +1,39 @@
+--- CSC450_CT1_mod1-2.cpp	2024-10-11 11:28:53.370627764 -0700
++++ CSC450_CT1_mod1-2-FIXED.cpp	2024-10-11 15:19:19.150773376 -0700
+@@ -1,27 +1,25 @@
++#include <iostream>
++/* #include<conio.h> */
+ 
+-
+-#include<iostream>
+-#include<conio.h>
+-
+-Standard namespace declaration
++/* Standard namespace declaration */
+ using namespace std;
+ 
+-Main Function
++/* Main Function */
+ int main()
+ {
+ 
+      double myMoney = 1000.50;  //this should be printed out
+ 
+ 
+-     Standard Ouput Statement
+-     cout"Please be sure to correct all syntax errors in this program"<<endl;
++     /* Standard Ouput Statement */
++     cout << "Please be sure to correct all syntax errors in this program" <<endl;
+ 
+-     cout<<"I have corrected all errors for this program. <<endl;
++     cout << "I have corrected all errors for this program." <<endl;
+ 
+-     cout<<" The total amount of money available is = "<<   <<endl;
++     cout << "The total amount of money available is = " << myMoney <<endl;
+ 
+      // Wait For Output Screen
+ 
+-     Main Function return Statement
++     /* Main Function return Statement */
+      return 0;
+ }
