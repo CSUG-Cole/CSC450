@@ -17,16 +17,16 @@ class Person
 {
 public:
     /* Explicit Initializer */
-    Person(std::string aFirstName,
-           std::string aLastName,
-           std::string aStreetAddress,
-           std::string aCity,
-           std::string aZipCode)
-        : firstName{std::move(aFirstName)}
-        , lastName{std::move(aLastName)}
-        , streetAddress{std::move(aStreetAddress)}
-        , city{std::move(aCity)}
-        , zipCode{std::move(aZipCode)}
+    Person(const std::string& aFirstName,
+           const std::string& aLastName,
+           const std::string& aStreetAddress,
+           const std::string& aCity,
+           const std::string& aZipCode)
+        : firstName{aFirstName}
+        , lastName{aLastName}
+        , streetAddress{aStreetAddress}
+        , city{aCity}
+        , zipCode{aZipCode}
     {
         /* Nothing left to initialize. */
     }
