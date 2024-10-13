@@ -1,4 +1,3 @@
-
 /*
  * Create a simple C++ console application using Eclipse IDE that will accomplish the following:
  *
